@@ -1,0 +1,52 @@
+.container {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 5px;  
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.logoContainer > span {
+  align-self: center;
+}
+
+.logo {
+  border-radius: 10px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.links :hover {
+  color: #0db0fe;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    background-color: inherit;
+  }
+
+  .links {
+    display: none
+  }
+
+  .logo {
+    margin-top: 0px;
+  }
+}

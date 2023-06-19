@@ -1,0 +1,26 @@
+.container {
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.item {
+  width: 75%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
